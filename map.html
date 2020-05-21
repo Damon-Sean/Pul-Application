@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pül Map Page</title>
+<link rel="stylesheet" href="css/map.css" type="text/css" >
+<meta name="viewport" content="width=device-width"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+    
+    
+<body>
+    
+<div class="logo">
+   <img class="responsive" src="img/Logo-P%C3%BCl.png" alt="main login image"> 
+</div>
+
+ 
+<nav>
+ 
+ 
+ <a href="home.html"><img class="nav-width" src="img/Logo-Pul-nav.png"/></a>
+ <a href="profile.html"><img class="nav-width" src="img/profile-128.png"/></a>
+ <a href="map.html"><img class="nav-width" src="img/worldwide-location-128.png"/></a>
+ <a href="settings.html"><img class="nav-width" src="img/settings-24-128.png"/></a>
+    
+</nav>
+    
+    <div id="map-title">
+        
+        <h1>Map</h1>
+        
+    </div>
+    
+    <div id="map-container">
+        
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.883886388147!2d-2.109282307405465!3d57.14379053487371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48840e24a6b6747f%3A0xd6ca5b5368547d8c!2sUnion%20St%2C%20Aberdeen!5e0!3m2!1sen!2suk!4v1587726124273!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        
+    </div>
+    
+    <div id="bottom-container">
+        
+        <div id="categories-container">
+        
+            <div id="fiesta-category">
+
+                <img src="img/Feista-Car.png" alt="Fiesta category.">
+
+                <h2>Fiesta</h2>
+
+                <input id="fiestaSelect" type="button" value="Select Car" alt="Fiesta select button.">
+
+            </div>
+
+            <div id="mondeo-category">
+
+                <img src="img/Mondeo-Car.png" alt="Mondeo category.">
+
+                <h2>Mondeo</h2>
+
+                <input id="mondeoSelect" type="button" value="Select Car" alt="Mondeo select button.">
+
+            </div>
+
+            <div id="focus-category">
+
+                <img src="img/Focus-Car.png" alt="Focus category.">
+
+                <h2>Focus</h2>
+
+                <input id="focusSelect" type="button" value="Select Car" alt="Focus select button.">
+
+            </div>
+
+            <div id="kuga-category">
+
+                <img src="img/Kuga-Car.png" alt="Kuga category.">
+
+                <h2>Kuga</h2>
+
+                <input id="kugaSelect" type="button" value="Select Car" alt="Kuga select button.">
+
+            </div>
+        
+        </div>
+        
+        <div id="fiesta-container" class="hidden">
+        
+            <div id="fiesta-active">
+
+                <img src="img/fiesta-active.png" alt="Ford Fiesta Active car.">
+
+                <h2>Active</h2>
+
+                <input id="fiestaActiveSelect" type="button" value="Select Car" alt="Fiesta Active select button.">
+
+            </div>
+
+            <div id="fiesta-st2">
+
+                <img src="img/fiesta-st2.png" alt="Ford Fiesta ST 2 car.">
+
+                <h2>ST2</h2>
+
+                <input id="fiestaSt2Select" type="button" value="Select Car" alt="Fiesta ST 2 select button.">
+
+            </div>
+
+            <div id="fiesta-trend">
+
+                <img src="img/fiesta-trend.png" alt="Ford Fiesta Trend car.">
+
+                <h2>Trend</h2>
+
+                <input id="fiestaTrendSelect" type="button" value="Select Car" alt="Fiesta Trend select button.">
+
+            </div>
+
+            <div class="return">
+
+                <img src="img/return.png" alt="X button.">
+
+                <h2>Prev.</h2>
+
+                <input class="back" type="button" value="Back" alt="Previous page.">
+
+            </div>
+        
+        </div>
+        
+        <div id="mondeo-container" class="hidden">
+        
+            <div id="mondeo-st-line">
+
+                <img src="img/mondeo-st-line.png" alt="Ford Mondeo ST Line car.">
+
+                <h2>ST Line</h2>
+
+                <input id="mondeoStLineSelect" type="button" value="Select Car" alt="Mondeo ST Line select button.">
+
+            </div>
+
+            <div id="mondeo-vignale">
+
+                <img src="img/mondeo-vignale.png" alt="Ford Mondeo Vignale car.">
+
+                <h2>Vignale</h2>
+
+                <input id="mondeoVignaleSelect" type="button" value="Select Car" alt="Mondeo Vignale  select button.">
+
+            </div>
+
+            <div id="mondeo-zetec">
+
+                <img src="img/mondeo-zetec.png" alt="Ford Mondeo Zetec car.">
+
+                <h2>Zetec</h2>
+
+                <input id="mondeoZetecSelect" type="button" value="Select Car" alt="Mondeo Zetec  select button.">
+
+            </div>
+
+            <div class="return">
+
+                <img src="img/return.png" alt="X button.">
+
+                <h2>Prev.</h2>
+
+                <input class="back" type="button" value="Back" alt="Previous page.">
+
+            </div>
+        
+        </div>
+        
+        <div id="focus-container" class="hidden">
+        
+            <div id="focus-active">
+
+                <img src="img/focus-active.png" alt="Ford Focus Active car.">
+
+                <h2>Active</h2>
+
+                <input id="focusActiveSelect" type="button" value="Select Car" alt="Focus Active  select button.">
+
+            </div>
+
+            <div id="focus-st-line">
+
+                <img src="img/focus-st-line.png" alt="Ford Focus ST Line car.">
+
+                <h2>ST Line</h2>
+
+                <input id="focusStLineSelect" type="button" value="Select Car" alt="Focus ST Line select button.">
+
+            </div>
+
+            <div id="focus-zetec">
+
+                <img src="img/focus-zetec.png" alt="Ford Focus Zetec car.">
+
+                <h2>Zetec</h2>
+
+                <input id="focusZetecSelect" type="button" value="Select Car" alt="Focus Zetec  select button.">
+
+            </div>
+
+            <div class="return">
+
+                <img src="img/return.png" alt="X button.">
+
+                <h2>Prev.</h2>
+
+                <input class="back" type="button" value="Back" alt="Previous page.">
+
+            </div>
+        
+        </div>
+        
+        <div id="kuga-container" class="hidden">
+        
+            <div id="kuga-st-line">
+
+                <img src="img/kuga-st-line.png" alt="Ford Kuga ST Line car.">
+
+                <h2>Active</h2>
+
+                <input id="focusActiveSelect" type="button" value="Select Car" alt="Focus ST Line  select button.">
+
+            </div>
+
+            <div id="kuga-vignale">
+
+                <img src="img/kuga-vignale.png" alt="Ford Kuga Vignale car.">
+
+                <h2>ST Line</h2>
+
+                <input id="focusStLineSelect" type="button" value="Select Car" alt="Kuga Vignale  select button.">
+
+            </div>
+
+            <div id="kuga-zetec">
+
+                <img src="img/kuga-zetec.png" alt="Ford Kuga Zetec car.">
+
+                <h2>Zetec</h2>
+
+                <input id="focusZetecSelect" type="button" value="Select Car" alt="Kuga Zetec select button.">
+
+            </div>
+
+            <div class="return">
+
+                <img src="img/return.png" alt="X button.">
+
+                <h2>Prev.</h2>
+
+                <input class="back" type="button" value="Back" alt="Previous page.">
+
+            </div>
+        
+        </div>
+    
+    </div>
+    
+   <div class="space"> 
+    
+    </div>
+    
+<script>
+$(function () {
+$('#fiestaSelect').click(function () {
+$('#categories-container, #mondeo-container, #focus-container, #kuga-container').hide();	
+$('#fiesta-container').show();
+});	
+});
+$(function () {
+$('#mondeoSelect').click(function () {
+$('#categories-container, #fiesta-container, #focus-container, #kuga-container').hide();	
+$('#mondeo-container').show();
+});	
+});  
+$(function () {
+$('#focusSelect').click(function () {
+$('#categories-container, #mondeo-container, #fiesta-container, #kuga-container').hide();	
+$('#focus-container').show();
+});	
+});  
+$(function () {
+$('#kugaSelect').click(function () {
+$('#categories-container, #mondeo-container, #focus-container, #fiesta-container').hide();	
+$('#kuga-container').show();
+});	
+});  
+$(function () {
+$('.back').click(function () {
+$('#fiesta-container, #mondeo-container, #focus-container, #kuga-container').hide();	
+$('#categories-container').show();
+});	
+});
+</script>
+    
+</body>
+
+</html>

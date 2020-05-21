@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<title>Pül Profile Page</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" >
+<link rel="stylesheet" href="css/profile.css" type="text/css" >
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width"/>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+</head>
+    
+    
+<body>
+    
+<div class="logo">
+   <img class="responsive" src="img/Logo-P%C3%BCl.png" alt="main login image"> 
+</div>
+
+ 
+	<div class="header">
+	
+	<h2>Profile</h2>
+	
+	</div>
+	
+<div class="container">
+	
+    <div class="left"> 
+	<div class="profile-main">
+		<img src="img/profile.png" alt="profile-image">
+		<h4 class="edit-click">Edit profile</h4>
+		<h2>Username</h2>
+		<img src="img/stars.png" alt="rates">
+	</div>
+    </div>
+	
+    <div class="right">
+	<div class="destination">
+		<h4>Last destination:</h4>
+		<div class="destination-name"> 
+			<h3>Union Square, Aberdeen</h3>
+		</div>
+		<img src="img/Union-street.png" alt="union-street"> 
+	
+	
+	</div>
+	</div>
+	
+	
+	</div>
+	<div class="space"></div>
+    
+<section class="overlay edit-01"> 
+ 
+<div class="picture-x">
+		<img alt="this is the button to close the nav bar"  src="img/nav-close.png"/>   
+</div>
+    
+<div id="content">
+    
+ <div class="logo-edit">
+   <img class="responsive" src="img/Logo-P%C3%BCl.png" alt="main login image"> 
+</div>
+    
+<div class="headings">
+<h2> Profile Edit</h2>    
+</div>
+    
+ <div class="profile-diff">
+ <img class="left-img" src="img/profile.png" alt="profile picture edit">  
+ </div>   
+  
+ <div class="profile-diff2"> 
+ <h3 class="right-text"> 
+ Username   
+ </h3>
+    
+ <h3 class="right-text"> 
+ Birthday    
+ </h3>
+    
+ </div>
+    
+ <div class="profile-diff3">
+    
+ <h4>  Email </h4>
+     
+ <h4> Address </h4>
+     
+ </div>
+    
+ <div class="headings">
+ <h2> Change Password </h2>   
+ </div>
+    
+ <div class="profile-diff3">
+ 
+ <h4> Old Password </h4>
+    
+ <h4> New Password </h4> 
+     
+ <h4> Confirm New Password </h4> 
+     
+ 
+ </div>
+  
+</div>
+    
+</section> 
+    
+<section id="edit-page">
+    
+<div class="picture-x">
+		<img alt="this is the button to close the nav bar"  src="img/nav-close.png"/>   
+</div> 
+    
+<div id="content"> 
+    
+<div class="logo">
+   <img class="responsive" src="img/Logo-P%C3%BCl.png" alt="main login image"> 
+</div>
+    
+<div class="header">
+<h2> Profile Edit</h2>    
+</div>
+    
+ <div class="profile-diff">
+ <img class="left" src="img/profile.png" alt="profile picture edit">    
+ </div>   
+    
+ <h3 class="right-text"> 
+ Username   
+ </h3>
+    
+ <h3 class="right-text"> 
+ Birthday    
+ </h3>
+    
+</div>
+    
+    
+</section>
+	
+<nav>
+ 
+ 
+ <a href="home.html"><img class="nav-width" src="img/Logo-Pul-nav.png"/></a>
+ <a href="profile.html"><img class="nav-width" src="img/profile-128.png"/></a>
+ <a href="map.html"><img class="nav-width" src="img/worldwide-location-128.png"/></a>
+ <a href="settings.html"><img class="nav-width" src="img/settings-24-128.png"/></a>
+    
+</nav>
+   
+    
+</body>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	
+	$(document).ready(function(){
+		
+		$('.edit-click').click(function(){
+			
+			$('.edit-01').fadeIn(600);
+			
+		});
+		
+		$('.edit-01').click(function(){
+			
+			$('.overlay').fadeOut(600);
+			
+		});
+       
+        
+        $('.bb-01-click').click(function(){
+			
+			$('.bb-01').fadeIn(600);
+			
+		});
+		
+		$('.bb-01').click(function(){
+			
+			$('.overlay').fadeOut(600);
+			
+		});
+		
+	});
+    
+    $('.burger').click(function(){
+			
+			$('#nav2').fadeIn(600);
+			
+    });
+		
+		$('.picture-x, .close').click(function(){
+			$('#nav2').fadeOut(600);
+    });
+	
+</script>  
+
+</html>
