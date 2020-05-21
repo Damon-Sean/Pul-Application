@@ -1,0 +1,1577 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0; 
+    color: white;
+}
+
+#log{
+    width: 100%;
+	height: 100vh;
+	margin: auto;
+	overflow: hidden;
+    display: block;
+}
+
+#log #nav{
+    display: none;
+}
+
+#register{
+    width: 100%;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+    display: block;
+}
+
+#register #nav{
+    display: none;
+}
+
+#home{
+   width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+}
+
+#map{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+}
+
+#profile{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    display: block;
+}
+
+#settings{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: scroll;
+    display: block;
+}
+
+/*
+#nav .hide-navigation-items{
+    display: none !important;
+}
+*/
+
+.logo{
+    margin-top: 5%;
+    text-align: center;
+    display: block; 
+}
+
+.sideways-logo{
+    display: none;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.text-headings {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
+} 
+
+
+.text-headings h3{
+    color: #004377;
+    font-weight: bold;
+    font-size: 6.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-headings-reg {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
+} 
+
+
+.text-headings-reg h3{
+    color: #004377;
+    font-weight: bold;
+    font-size: 5.9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-text{
+    width: 100%;
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.page-text p{
+    color: black;
+    font-weight: 700;
+    font-size: 5.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    color: #004377;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+  width: 100%;
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  padding: 16px; /* Add some padding */
+  height: 50px;
+  background-color: white;
+  bottom: 0;  
+  position: fixed;
+}
+
+nav a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+}
+
+.nav-width{
+    height: 50px;
+    padding: 0px 15px 0px 20px;
+    float: left;
+}
+
+.text-box{
+    
+}
+
+.storage {
+    border-style: outset;
+    text-align: center;
+}
+
+.storage h1 {
+    font-size: 5vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.storage h2 {
+    font-size: 4vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.storage h3 {
+    font-size: 4vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 6px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+input[type=text]:focus{
+    border-color: #004377;
+    box-shadow: 0 0 10px 0 #004377;
+}
+
+button{
+    height: 100px;
+    width: 250px;
+    background-color: #004377;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+    border-radius:50px;
+}
+
+button p{
+    color: white;
+    font-weight: bold;
+    font-size: 7.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: auto;
+    max-height: 100px;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);   
+    
+}
+
+.center-2{
+    position: absolute;
+    left: 50%;
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);   
+    
+}
+
+.left{
+  display: block;  
+  align-content: center;
+}
+
+.right{
+  display: block;
+  align-content: center;
+}
+
+.right-2{
+   display: block; 
+   align-content: center;
+}
+
+.header{
+	width: 100%;
+	height: auto;
+	background-color:#004377;
+}
+
+.header h2{
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	padding: 5%;
+	text-align: center;
+    color: white;
+	margin: 0;
+	font-size: 2.5vh;
+	
+}
+
+.cars-content h2{
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color:#004377;
+	font-size: 4vw;
+	margin-top: 0;
+}
+.cars-content h1{
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color:#004377;
+	font-size: 7vw;
+	margin-bottom: 0;
+	
+}
+
+.cars-left{
+	width: 50%;
+	float: left;
+	padding-top: 10%;
+	
+}
+.cars-left img{
+	width: 100%;
+	max-width: 500px;
+	padding-left: 10px;
+}
+
+.cars-right{
+	width: 50%;
+	float: right;
+}
+
+
+.space{
+	height: 500px;
+}
+
+
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+	width: 100px;
+}
+
+.btn-three {
+    color: white;
+    position: relative;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	background-color: #004377;
+	    font-size: 2vh;
+    font: icon;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+
+	
+}
+
+button h1{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.more{
+    color: white;
+    position: relative;
+	font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	background-color: #004377;
+    font-size: 2vh;
+    font: icon;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50px;
+	margin-top: 5%;
+	
+}
+
+.more-cars{
+	width: 100%;
+    height: 100vh;
+    display: grid;
+    display: none;
+}
+
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: white;
+	top: 0;
+	left: 0;
+	display:none;
+}
+
+.profile-main{
+	width: 100%;
+	height: auto;
+	display: block;
+	text-align: center;
+	color: #004377;
+	
+}
+.profile-main h4{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+    font-size: 5vw;
+	
+}
+
+.profile-main h2{
+	font-family: Roboto;
+	margin-top: 10px;
+	margin-bottom: 0px;
+    font-size: 7vw;
+	
+}
+.profile-main img{
+	width: 150px;
+	max-width: 300px;
+}
+.destination{
+	width: 80%;
+	margin: auto;
+	padding-top: 2%;
+}
+.destination h4{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	color: #004377;
+    font-size: 5vw;
+}
+
+.destination-name{
+	width: 100%;
+	height: 50px;
+	background-color: #004377;
+}
+
+.destination-name h3{
+	color: white;
+	font-family: Roboto;
+	margin: 0;
+	line-height: 50px;
+	margin-left: 2%;
+}
+
+.destination img{
+	width: 100%;
+}
+
+.subject{
+	width: 100%;
+	height: 50px;
+	background-color: #f1f0f0;
+	line-height: 50px;
+	
+}
+
+.subject h3{
+	margin: 0;
+	padding-left: 10px;
+}
+
+.title{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+.title img{
+	width: 35px;
+	float: left;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.title h3{
+	margin: 0;
+	line-height: 40px;
+	width: 200px;
+	float: left;
+	color: black;
+}
+img.arrow{
+	height: 30px;
+	padding-top: 8px;
+	float: right;
+	
+	
+	
+}
+
+img.size{
+	width: 45px;
+}
+
+img.position-two{
+	width: 35px;
+	padding-top: 1%;
+}
+h3.text-height{
+	line-height: 20px!important;
+	font-size: 15px;
+}
+
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+	width: 100px;
+}
+
+button{
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn-one {
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+	background-color: red;
+	font-size: 2vh;
+    float: right;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	margin-top: 4px;
+}
+
+#btn {
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+}
+
+#btn-yes,#btn-yes_two {
+    color: white;
+    position: relative;
+    font-family: Roboto;
+    background-color: red;
+    font-size: 2vh;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.btn-two{ 
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+    font-size: 2vh;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+    display: none;
+    
+}	
+
+.storage{
+	border-style: outset;
+	text-align: center;
+	
+}
+.storage h1{
+	font-size: 23px;
+}
+
+.storage h2{
+	font-size: 16px;
+	line-height: 3px;
+}
+.storage h3{
+	font-size: 4vw;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+#add-account{
+	display: none;
+}
+#privacy-settings{
+	display: none;
+}
+#user-agreement{
+	display: none;
+}
+#report-a-bug{
+	display: none;
+}
+#content-policy{
+	display: none;
+}
+
+
+
+.picture-x{
+	float: right;
+	width:50px;
+	height: 50px;
+	background-size: cover;
+	margin: 5px;
+	
+}
+
+.headings{
+    text-align: center;
+}
+
+.headings h2{
+    color: #004377;
+    font-weight: bold;
+    font-size: 6.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-diff{
+    width: 35%;
+    float: left;
+}
+
+.profile-diff2{
+   width: 65%;
+   float: right;
+}
+
+.profile-diff3{
+   width: 100%;
+   float: left;
+}
+
+.profile-diff3 h4{
+   color: #004377;
+   font-weight: 600;
+   font-size: 5.0vw;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto', sans-serif; 
+   margin-left: 5%;
+}
+
+.left-img{
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.right-text{
+    text-align: center;
+    margin: 15%;
+}
+
+.right-text{
+   color: #004377;
+   font-weight: 600;
+   font-size: 5.0vw;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Roboto', sans-serif; 
+}
+
+#edit-profile{
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	z-index: 25;
+	background: white;
+}
+
+#edit-page{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 25;
+    background: white;
+}
+
+#content{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+@media (width:1920px){ 
+    
+    #home{
+   width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: scroll;
+    }
+    
+    
+    #home .logo{
+        display: block;
+    }   
+    
+    .logo{
+        display: none;
+    }
+    
+    .sideways-logo{
+        display: block;
+        text-align: center;
+    }
+    
+    #home .responsive {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+    
+.nav-width {
+    height: 50px;
+    padding: 0px 250px 0px 175px;
+    float: left;
+}
+    
+    .responsive{
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+    
+    .text-headings h3{
+        font-size: 4.0vw;
+    }
+    
+    .text-headings-reg h3{
+        font-size: 2.5vw; 
+    }
+    
+
+    
+/*
+    .nav-width {
+    height: 50px;
+    padding: 0px 375px 0px 50px;
+    float: left;
+    z-index: 1;
+}
+*/
+
+
+/*
+    .text-headings h3{
+        color: #004377;
+        font-weight: bold;
+        font-weight: 4.0vw;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+*/
+    
+/*
+    .text-headings-reg h3{
+        color: #004377;
+        font-weight: bold;
+        font-size: 2.5vw;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+*/
+    
+    input[type=text]{
+        width: 200%;
+        border: 10px solid #004377;
+        border-radius: 10px;
+        margin: 0px 30px;
+        outline: none;
+        padding: 20px;
+        box-sizing: border-box;
+        font-size: 1.5vw;
+    }
+    
+    input[type=text]:focus{
+    border-color: #004377;
+    box-shadow: 0 0 10px 0 #004377;
+    }
+    
+    .page-text{
+    margin: 0%;
+    }
+
+    .page-text p {
+    margin-top: 5%;
+    color: black;
+    font-weight: 700;
+    font-size: 3.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    button{
+    height: 200px;
+    width: 500px;
+    background-color: #004377;
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 50px;
+    }
+
+    button p{
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    .container{
+    height: auto;
+    max-height: 100px;
+    position: relative;
+    }
+    
+    .container-reg{
+    height: auto;
+    max-height: 100px;
+    position: relative;
+    }
+
+    .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);   
+    
+    }
+    
+    .left{
+    height: 100%;
+    float: left;
+    }
+    
+    .right{
+   height: 100%;
+   width: 50%;
+   float: right;
+   margin-top: 10%;
+    }
+    
+    .right-2{
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin-top: 15%;
+    }
+    
+}
+
+.header h2 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5vh;
+    font-size: 25px;
+}
+
+
+
+@media(width:800px){
+    
+#home {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    overflow: scroll;
+/*    display: block;*/
+}    
+    
+.logo {
+    text-align: center;
+    display: block;
+}    
+
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #004377;
+}
+    
+.header h2 {
+    font-family: Roboto;
+    text-align: center;
+    margin: 0;
+    font-size: 3.5vh;
+    padding: 2%;
+    position: inherit;
+}
+    
+.cars-content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #004377;
+    font-size: 3vw;
+    margin-bottom: 0;
+}
+    
+.cars-left img {
+    width: 100%;
+    max-width: 200px;
+}
+   
+.cars-left {
+    width: 50%;
+    float: left;
+    padding: 0;
+}
+    
+.cars-right {
+    width: 50%;
+    float: right;
+}
+    
+.container {
+    height: auto;
+    max-height: 400px;
+    position: relative;
+}
+
+.cars-content h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #004377;
+    font-size: 2vw;
+    margin-bottom: 0;
+}
+    
+.responsive {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+    
+.text-headings {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+    
+ .text-headings h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+ .text-headings-reg h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 1.8vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.left {
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: left;
+}
+    
+.right{
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: right;
+}
+    
+.right-2 {
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: right;
+}
+    
+.center-2 {
+    position: absolute;
+    left: 50%;
+    /* top: 50%; */
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(0%, 50%);
+}
+    
+.container-reg{
+    width: 50%;
+    height: auto;
+    max-height: 100px;
+    position: relative;
+    }
+
+.page-text {
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+    
+.page-text p {
+    color: black;
+    font-weight: 700;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+    
+input[type=text] {
+    width: 80%;
+    height: 20px;
+    border: 4px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    
+button p {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}    
+    
+.nav-width {
+    height: 50px;
+    /* padding: 0px 15px 0px 20px; */
+    padding: 0px 90px 0 50px;
+    float: left;
+}    
+    
+    
+    
+}
+
+
+
+@media(max-width:375px){
+body{
+    margin: 0;
+    padding: 0; 
+    color: white;
+}
+
+.logo{
+    margin-top: 5%;
+    text-align: center;
+    display: block; 
+}
+
+.sideways-logo{
+    display: none;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.text-headings {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
+} 
+
+
+.text-headings h3{
+    color: #004377;
+    font-weight: bold;
+    font-size: 6.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-headings-reg {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 10%;
+} 
+
+
+.text-headings-reg h3{
+    color: #004377;
+    font-weight: bold;
+    font-size: 5.9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-text{
+    width: 100%;
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.page-text p{
+    color: black;
+    font-weight: 700;
+    font-size: 5.0vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    color: #004377;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+  width: 100%;
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  padding: 16px; /* Add some padding */
+  height: 50px;
+  background-color: white;
+  bottom: 0;  
+  position: fixed;
+}
+
+nav a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+}
+
+/*
+.nav-width{
+    height: 50px;
+    padding: 0px 15px 0px 20px;
+    float: left;
+}
+*/
+
+.text-box{
+    
+}
+
+input[type=text] {
+    width: 80%;
+    border: 6px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+input[type=text]:focus{
+    border-color: #004377;
+    box-shadow: 0 0 10px 0 #004377;
+}
+
+button{
+    height: 100px;
+    width: 250px;
+    background-color: #004377;
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+    border-radius:50px;
+}
+
+button p{
+    color: white;
+    font-weight: bold;
+    font-size: 7.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: auto;
+    max-height: 100px;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);   
+    
+}
+
+.center-2{
+    position: absolute;
+    left: 50%;
+    -ms- transform: translate(-50%, -0%);
+    transform: translate(-50%, -0%);   
+    
+}
+    
+}
+
+@media(width: 1024px){
+    .nav-width {
+    height: 50px;
+    padding: 0px 68px 0px 130px;
+    float: left;
+}
+    
+    
+}
+
+@media(min-width: 768px) {
+
+	.btn-three {
+		line-height: 50px;
+		font:normal;
+	}
+	.btn{
+		width: 200px;
+		font-size: x-large;
+	}
+	
+}
+
+@media(min-width: 1024px) {
+
+	.btn-three {
+		line-height: 60px;
+		
+	}
+	.btn{
+		width: 300px;
+	}
+    
+}    
+
+@media(max-width: 1920px) {
+	.cars-content h1{
+		font-size: 5vh;
+	}
+	.cars-content h2{
+		font-size: 3vh;
+	}
+	.cars-left img{
+		max-width: 600px;
+		
+	}
+	.cars-left{
+		padding-top: 5%;
+	}
+	.cars-right{
+		padding-top: 3%;
+	}
+	.btn-three {
+		line-height: 60px;
+		
+	}
+    
+    .header h2 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 2.5vh;
+    font-size: 25px;
+}
+    
+/*
+    .nav-width {
+    height: 50px;
+    padding: 0px 291px 0px 130px;
+    float: left;
+}
+*/
+	
+}
+
+@media(width:1600px){
+    .nav-width {
+    height: 50px;
+    padding: 0px 172px 0px 175px;
+    float: left;
+}
+    
+button {
+    text-align: center;
+    cursor: pointer;
+    width: 500px;
+}
+    
+button p {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+    
+    
+.text-headings h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 10px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    
+.left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+    
+.right {
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: right;
+}
+    
+.page-text p {
+    color: black;
+    font-weight: 700;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+    
+.right-2{
+    width: 50%;
+    float: right;
+}
+    
+.center-2 {
+    position: absolute;
+    transform: translate(25%, 55%);
+}
+    
+.text-headings-reg h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 1.9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+}
+
+@media(width:1366px){
+    .nav-width {
+    height: 50px;
+    padding: 0px 145px 0px 144px;
+    float: left;
+}
+    
+button {
+    text-align: center;
+    cursor: pointer;
+    width: 500px;
+}
+    
+button p {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+    
+    
+.text-headings h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 10px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    
+.left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+    
+.right {
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: right;
+}
+    
+.page-text p {
+    color: black;
+    font-weight: 700;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+    
+.right-2{
+    width: 50%;
+    float: right;
+}
+    
+.center-2 {
+    position: absolute;
+    transform: translate(25%, 55%);
+}
+    
+.text-headings-reg h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}    
+
+    
+}
+
+@media(width:1280px){
+    .nav-width {
+    height: 50px;
+    padding: 0px 123px 0px 144px;
+    float: left;
+}
+    
+    
+button {
+    text-align: center;
+    cursor: pointer;
+    width: 500px;
+}
+    
+button p {
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 0;
+}
+    
+    
+.text-headings h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=text] {
+    width: 80%;
+    border: 10px solid #004377;
+    border-radius: 10px;
+    margin: 0px 30px;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+    
+.left {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+    
+.right {
+    width: 50%;
+    display: block;
+    align-content: center;
+    float: right;
+}
+    
+.page-text p {
+    color: black;
+    font-weight: 700;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+    
+.right-2{
+    width: 50%;
+    float: right;
+}
+    
+.center-2 {
+    position: absolute;
+    transform: translate(25%, 55%);
+}
+    
+.text-headings-reg h3 {
+    color: #004377;
+    font-weight: bold;
+    font-size: 1.9vw;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}    
+
+
+}
+
+@media(min-width: 1500px) {
+
+	.title{
+		height: 50px;
+	}
+	img.position-two{
+		padding-top: 0.5%;
+	}
+}
+
+@media(max-width: 360px) {
+
+	.title h3{
+		width: 172px;
+	}
+}
+

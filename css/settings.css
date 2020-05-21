@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0; 
+    color: white;
+}
+
+.logo{
+    margin-top: 5%;
+    text-align: center;
+    display: block; 
+}
+
+.header{
+	width: 100%;
+	height: auto;
+	background-color:#004377;
+}
+
+.header h2{
+	font-family: Roboto;
+	padding: 5%;
+	text-align: center;
+	margin: 0;
+	font-size: 6vh;
+	
+}
+
+.container{
+	width: 100%;
+	height:auto;
+	box-sizing: border-box;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.subject{
+	width: 100%;
+	height: 50px;
+	background-color: #f1f0f0;
+	line-height: 50px;
+	
+}
+.subject h3{
+	margin: 0;
+	padding-left: 10px;
+}
+
+.title{
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	padding-top: 10px;
+	cursor: pointer;
+}
+
+.title img{
+	width: 35px;
+	float: left;
+	padding-right: 20px;
+	padding-left: 10px;
+}
+.title h3{
+	margin: 0;
+	line-height: 40px;
+	width: 200px;
+	float: left;
+	color: black;
+}
+img.arrow{
+	height: 30px;
+	padding-top: 8px;
+	float: right;
+	
+	
+	
+}
+
+img.size{
+	width: 45px;
+}
+
+img.position-two{
+	width: 35px;
+	padding-top: 1%;
+}
+
+h3.text-height{
+	line-height: 20px!important;
+	font-size: 15px;
+}
+
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+	width: 100px;
+}
+
+button{
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+}
+
+#btn-yes,#btn-yes_two {
+    color: white;
+    position: relative;
+    font-family: Roboto;
+    background-color: red;
+    font-size: 2vh;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
+
+.btn-two{ 
+    color: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: green;
+    font-size: 2vh;
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    margin-top: 4px;
+    display: none;
+    
+}
+
+
+	
+
+.storage{
+	border-style: outset;
+	text-align: center;
+	
+}
+.storage h1{
+	font-size: 23px;
+}
+
+.storage h2{
+	font-size: 16px;
+	line-height: 3px;
+}
+.storage h3{
+	font-size: 13px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+#add-account{
+	display: none;
+}
+
+#privacy-settings{
+	display: none;
+}
+
+#user-agreement{
+	display: none;
+}
+
+#report-a-bug{
+	display: none;
+}
+
+#content-policy{
+	display: none;
+}
+
+.space{
+	height: 100px;
+}
+
+@media(width: 1920px) {
+    
+    .header h6 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vh !important;
+      
+    }
+    
+    .logo{
+        display: block;
+    }
+    
+    .responsive{
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+        
+}
+    
+@media(width: 1600px) {
+    
+    .header h6 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vh !important";
+}
+    
+@media(width: 1280px) {
+    
+    .header h6 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 4.5vh !important;
+}
+    
+@media(width: 1024px) !imporant {
+    
+.header h6 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 3.5vh !important;
+}
+    
+@media(width: 800px) !important {
+    
+.header h6 {
+    font-family: Roboto;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    font-size: 3.5vh;
+}
+
+
+
+@media(max-width: 360px) {
+
+/*
+	.title h3{
+		width: 172px;
+	}
+*/
+    
+    .header h2{
+        font-size: 4vh;
+    }
+}
+
